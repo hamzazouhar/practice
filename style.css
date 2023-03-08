@@ -40,6 +40,7 @@
 .grid {
     display: flex;
     justify-content: space-between;
+    row-gap: 11px;
     flex-direction: row;
     flex-flow: row wrap;
     flex-grow: 0.03;
