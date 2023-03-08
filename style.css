@@ -1,0 +1,57 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    margin-right: 355px;
+    margin-left: 355px;
+
+
+}
+.container div {
+    height: 100px;
+    width:auto;
+}
+.item#one {
+    margin-bottom: 30px;
+    background: black;
+}
+.body#one {
+    height: 360px;
+    width: auto;
+}
+.item#three {
+    margin-top: 30px;
+    background: black;
+}
+.body {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+.body div {
+    height: 100px;
+    width:100px;
+}
+#bodytwo {
+    height: 355px;
+    background: black;
+    flex-grow: 0.9;
+}
+.grid {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-flow: row wrap;
+    flex-grow: 0.03;
+}
+.body div {
+    height: 80px;
+    width:80px;
+}
+#gridtwo {
+    height: 355px;
+    width: 200px;
+}
+.grid div {
+    background: black;
+}
